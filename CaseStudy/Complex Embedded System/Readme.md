@@ -1,6 +1,6 @@
 # Smart Watch
 
-![Smart_Watch](https://user-images.githubusercontent.com/98875082/154545253-2c6e0a31-665d-4931-841d-bd674bbda849.png)
+![watch](https://user-images.githubusercontent.com/98875082/154554051-e517b05f-65ff-4961-9ea2-ee73444f0635.png)
 
 A Smart Watch is an embedded system which offers extra functionality and connectivity on top of the features. To perform the operation it contains the followings blocks
 
@@ -14,6 +14,6 @@ A Smart Watch is an embedded system which offers extra functionality and connect
 
 - Memory Unit: The smart watch also contains the memory to store the information from the sensors or any other data.
 
-- Indicator(LED & display): The display unit consists on LCD or OLED for better picture quality and viewing angles or informaion and they also provide better battery life.   
+- LED & Display: The display unit consists on LCD or OLED for better picture quality and viewing angles or informaion and they also provide better battery life. The LED is used to indicated the changes in the sensors value, low battery indication etc. 
 
 
