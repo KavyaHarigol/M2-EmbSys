@@ -1,19 +1,64 @@
-# Washing Machine
+# Smart Railway Gate System
+
+## Design Details
 
 ![washing_machine](https://user-images.githubusercontent.com/98875082/154543238-2726fe83-8574-4419-92a9-7b4051c03e58.png)
 
-A washing machine is a machine which washes laundary such as clothing, sheets using water and detergent. To perform  the operation it contains the followings blocks
+The Smart Railway Gate System is a simple embedded system which automatically opens and closes the gate whenever the train arrives. It consists of 
+-	IR Sensor 
+-	ADC
+-	ARM Controller
+-	Stepper Motor
+-	LCD Display
+-	Buzzer/LED
 
-- A Controller Unit: The washing machine includes a controller for communicating with the motors and sensors. It basically controller all the operations by sending and receiving the signals from sensors and motors. It also helps in indicating the completion of the process through the led and display unit.
+- IR Sensor 
+ An IR sensor is used to sense the arrival and departure of the train. An IR Sensor generally comprises of two components: an IR Transmitter and an IR Receiver. An IR Transmitter is a device that emits IR Rays.  Similarly, an IR Receiver is a device that detects the IR Rays. Photo Diodes are the most commonly used IR receivers.
 
-- Valve Control Unit: Valve control unit controls the water inlet valve and drain contains all the information about opening and closing of water valve and drain valve. It contains all he information about opening and closing of water valve and drain valve.
+- ADC (Analogy-to-Digital Converter)
+The sensor value is read through the ADC. The 10-bit ADC values produces equivalent digital data with respect to the IR sensor’s output. With the help of digital data, the gate is being controlled.
 
-- Sensor Unit: Sensor unit collects information about the sensors used in washing machine Load check sensor gives information about how much load is present inside the tub. Accordingly water fills into the tub. Similarly, it contains information about all other sensors in washing machine, such as, water availability check, detergent availability, door open/close, balance check and trap check.
+- ARM Controller
+An ARM processor is one of the best alternatives obtainable for embedded system designers. It comes in 16/32-bit ARM7TDMI Microcontroller in a tiny LQFP64 package. It has 40 kB of on-chip static RAM and 512 kB of on-chip flash memory with a high-speed 60 MHz operation.
 
-- Motor Control Unit: This unit controls the functioning of motor. It contains all the information about the rotation of motor, such as when motor rotates in clockwise direction and when in counter clockwise. It also contains the information when motor will turn on and turn off in all three cases i.e., washing, rinsing and drying.
+- Stepper Motor
+A stepper motor is an electric motor whose main feature is that its shaft rotates by performing steps, that is, by moving by a fixed number of degrees. This allows to know the exact angular   position of the shaft by simply counting how may steps have been performed, with no need for a sensor. To open the gate the motor rotates clock wise and rotates anti clock wise to close the gate.
 
-- Display Unit: The display unit consists of seven segment LED display to indicate the completion of process, occurrence of some problem while washing etc. 
- 
-- Operator Control Panel: Operator control panel is a keypad consisting of set and reset buttons.
+- LCD Display and Buzzer
+A liquid-crystal display (LCD) is a flat-panel display that shows the status of the railway gate open or close section and warning message for road users. A Buzzer is also used to warn the road user about the approach of train.
+
+## V-Model of the Smart Railway Gate System
 
 
+## Requirements
+###	High Level Requirements
+
+|  ID |    Description   |
+|-----|-------------------|
+|HLR1|Initialing all the peripherals with ARM controller|
+|HLR2|It allows to sense the arrival and departure of the train|
+|HLR3|It allows to open the gate|
+|HLR4|It allows to close the gate|
+|HLR5|It allows to displays status on LCD|
+|HLR6|It allows to indicate through the Buzzer/LED|
+
+### Low Level Requirements
+|  ID |    Description   |
+|-----|-------------------|
+|LLR1|Power up the System|
+|LLR2|IR Sensor detects the arrival and departure of the train|
+|LLR3|The Steppers motors rotates clockwise to open the gate|
+|LLR4|The Steppers motors rotates ani clock wise to close the gate|
+|LLR5|Display information on LCD module|
+|LLR6|Alter the people through the buzzer/LED|
+
+## Test Cases
+| Test ID| Test Case Objective | Input Data | Excepted Data |
+|--------|---------------------|------------|---------------|
+|TC_1|Power up the System      |Turning ON the system|Display “Welcome to Railway Gate System”|
+|TC_2|Arrival of the Train     |Detecting IR Rays from the sensor|Closes the gate
+                                                                  Displays “The train has arrived”
+                                                                  Buzzer ON|
+|TC_3|Departure of the train|Detecting IR Rays from the sensor|Gate is opened
+                                                               Displays “The train has left the station”
+                                                               Buzzer OFF|
