@@ -2,7 +2,8 @@
 
 ## Design Details
 
-![washing_machine](https://user-images.githubusercontent.com/98875082/154543238-2726fe83-8574-4419-92a9-7b4051c03e58.png)
+![GateSystem](https://user-images.githubusercontent.com/98875082/154837210-4967ff43-eb2a-4d06-87f9-1901d0ccd8e3.png)
+
 
 The Smart Railway Gate System is a simple embedded system which automatically opens and closes the gate at a railway level crossing.It includes IR Sensor, ARM Controller, stepper motor, LCD dispaly and buzzer/LED. 
 
@@ -22,6 +23,8 @@ A stepper motor is an electric motor whose main feature is that its shaft rotate
 A liquid-crystal display (LCD) is a flat-panel display that shows the status of the railway gate open or close section and warning message for road users. A Buzzer is also used to warn the road user about the approach of train.
 
 ## V-Model of the Smart Railway Gate System
+
+![Vmodel](https://user-images.githubusercontent.com/98875082/154837216-1fcaf1bf-ba2a-4b89-b5ff-0e55cde9e15f.png)
 
 
 ## Requirements
