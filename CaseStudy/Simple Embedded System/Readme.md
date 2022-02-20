@@ -4,13 +4,7 @@
 
 ![washing_machine](https://user-images.githubusercontent.com/98875082/154543238-2726fe83-8574-4419-92a9-7b4051c03e58.png)
 
-The Smart Railway Gate System is a simple embedded system which automatically opens and closes the gate whenever the train arrives. It consists of 
--	IR Sensor 
--	ADC
--	ARM Controller
--	Stepper Motor
--	LCD Display
--	Buzzer/LED
+The Smart Railway Gate System is a simple embedded system which automatically opens and closes the gate at a railway level crossing.It includes IR Sensor, ARM Controller, stepper motor, LCD dispaly and buzzer/LED. 
 
 - IR Sensor 
  An IR sensor is used to sense the arrival and departure of the train. An IR Sensor generally comprises of two components: an IR Transmitter and an IR Receiver. An IR Transmitter is a device that emits IR Rays.  Similarly, an IR Receiver is a device that detects the IR Rays. Photo Diodes are the most commonly used IR receivers.
@@ -56,5 +50,5 @@ A liquid-crystal display (LCD) is a flat-panel display that shows the status of 
 | Test ID| Test Case Objective | Input Data | Excepted Data |
 |--------|---------------------|------------|---------------|
 |TC_1|Power up the System      |Turning ON the system|Display “Welcome to Railway Gate System”|
-|TC_2|Arrival of the Train     |Detecting IR Rays from the sensor|- Closes the gate - Displays “The train has arrived” - Buzzer ON|
+|TC_2|Arrival of the Train     |Detecting IR Rays from the sensor|Closes the gate\n Displays “The train has arrived”\n Buzzer ON|
 |TC_3|Departure of the train|Detecting IR Rays from the sensor|Gate is opened Displays “The train has left the station” Buzzer OFF|
