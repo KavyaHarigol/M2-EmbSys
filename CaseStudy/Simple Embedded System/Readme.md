@@ -3,7 +3,7 @@
 ## Design Details
 
 <p align="center"> 
- ![GateSystem](https://user-images.githubusercontent.com/98875082/154837210-4967ff43-eb2a-4d06-87f9-1901d0ccd8e3.png) 
+ <img width="460" height="300" src=![GateSystem](https://user-images.githubusercontent.com/98875082/154837210-4967ff43-eb2a-4d06-87f9-1901d0ccd8e3.png)>
 </p>
 
 
