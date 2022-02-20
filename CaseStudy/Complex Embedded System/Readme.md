@@ -1,6 +1,6 @@
+# Smart Watch
 
 ![Smart_Watch](https://user-images.githubusercontent.com/98875082/154838970-d45d7aeb-0f79-49ca-8a7f-6576a8d65348.png)
-
 
 A Smart Watch is an embedded system which offers extra functionality and connectivity on top of the features. To perform the operation it contains the followings blocks
 
