@@ -50,5 +50,5 @@ A liquid-crystal display (LCD) is a flat-panel display that shows the status of 
 | Test ID| Test Case Objective | Input Data | Excepted Data |
 |--------|---------------------|------------|---------------|
 |TC_1|Power up the System      |Turning ON the system|Display “Welcome to Railway Gate System”|
-|TC_2|Arrival of the Train     |Detecting IR Rays from the sensor|Closes the gate\n Displays “The train has arrived”\n Buzzer ON|
+|TC_2|Arrival of the Train     |Detecting IR Rays from the sensor|Closes the gate <br /> Displays “The train has arrived” <br /> Buzzer ON|
 |TC_3|Departure of the train|Detecting IR Rays from the sensor|Gate is opened Displays “The train has left the station” Buzzer OFF|
