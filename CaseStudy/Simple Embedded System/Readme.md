@@ -13,7 +13,7 @@ The Smart Railway Gate System is a simple embedded system which automatically op
 - ADC (Analogy-to-Digital Converter)
 The sensor value is read through the ADC. The 10-bit ADC values produces equivalent digital data with respect to the IR sensor’s output. With the help of digital data, the gate is being controlled.
 
-- ARM Controller
+- MicroController Unit
 The Microconroller Unit is one of the best alternatives obtainable for embedded system designers. It helps opening and closing the gate when the train passes the junction. All the sensor and actuator are interfaced with the microcontroller.
 
 - Stepper Motor
