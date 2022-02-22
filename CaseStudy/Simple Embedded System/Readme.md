@@ -14,7 +14,7 @@ The Smart Railway Gate System is a simple embedded system which automatically op
 The sensor value is read through the ADC. The 10-bit ADC values produces equivalent digital data with respect to the IR sensor’s output. With the help of digital data, the gate is being controlled.
 
 - ARM Controller
-An ARM processor is one of the best alternatives obtainable for embedded system designers. It comes in 16/32-bit ARM7TDMI Microcontroller in a tiny LQFP64 package. It has 40 kB of on-chip static RAM and 512 kB of on-chip flash memory with a high-speed 60 MHz operation.
+The Microconroller Unit is one of the best alternatives obtainable for embedded system designers. It helps opening and closing the gate when the train passes the junction. All the sensor and actuator are interfaced with the microcontroller.
 
 - Stepper Motor
 A stepper motor is an electric motor whose main feature is that its shaft rotates by performing steps, that is, by moving by a fixed number of degrees. This allows to know the exact angular   position of the shaft by simply counting how may steps have been performed, with no need for a sensor. To open the gate the motor rotates clock wise and rotates anti clock wise to close the gate.
@@ -48,6 +48,10 @@ A liquid-crystal display (LCD) is a flat-panel display that shows the status of 
 |LLR4|The Steppers motors rotates ani clock wise to close the gate|
 |LLR5|Display information on LCD module|
 |LLR6|Alter the people through the buzzer/LED|
+
+## Application
+- Railway gate controlling
+- Parking gate controlling
 
 ## Test Cases
 | Test ID| Test Case Objective | Input Data | Excepted Data |
