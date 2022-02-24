@@ -54,6 +54,5 @@ The buzzer/LED is interfaced with the controller in order to alter the people pr
 ## Test Cases
 | Test ID| Test Case Objective | Input Data | Excepted Data |
 |--------|---------------------|------------|---------------|
-|TC_1|Power up the System      |Turning ON the system|Display “Welcome to Railway Gate System”|
-|TC_2|Arrival of the Train     |Detecting IR Rays from the sensor|Closes the gate <br /> Buzzer\LED ON|
-|TC_3|Departure of the train|Detecting IR Rays from the sensor|Gate is opened <br /> Buzzer\LED OFF|
+|TC_1|Arrival of the Train     |Detecting IR Rays from the sensor|Closes the gate <br /> Buzzer\LED ON|
+|TC_2|Departure of the train|Detecting IR Rays from the sensor|Gate is opened <br /> Buzzer\LED OFF|
