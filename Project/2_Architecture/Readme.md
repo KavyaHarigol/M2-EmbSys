@@ -1,6 +1,7 @@
 # Block Diagram
 
-![GateSystem_controller drawio](https://user-images.githubusercontent.com/98875082/155598169-ea211662-9fcf-42d1-b5c3-cbe8ebe159b3.png)
+![block](https://user-images.githubusercontent.com/98875082/155725641-6779b137-7698-4539-9184-6f6275339f2b.png)
+
 
 The Smart Railway Gate System is a simple embedded system which automatically opens and closes the gate at a railway level crossing.It includes IR Sensor, ARM Controller, stepper motor, LCD dispaly and buzzer/LED.
 
