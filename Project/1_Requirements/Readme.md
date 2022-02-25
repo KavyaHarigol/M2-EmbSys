@@ -24,7 +24,7 @@
 |HLR1|It shall open the gate on the arrival of train|
 |HLR2|It shall close the gate on the departure of train |
 |HLR3|It shall display the information about arrival & departure of train|
-|HLR4|It shall alter throght buzzer/LED when train comes|
+|HLR4|It shall alter through buzzer/LED when train comes|
 
 ### Low Level Requirements
 |  ID |    Description   | HLR ID |
