@@ -1,14 +1,20 @@
-# Description
-- The project Involuntary Railway Gate System attempts to automate the opening and closing of gates at a railway level crossing. With the help of this the human intervention can be avoided by automating the process. It includes IR Sensor, Micro Controller, LCD, motor and buzzer/LED.
+# Involuntary Railway Gate System
+
+## Description
+- The project Involuntary Railway Gate System attempts to automate the opening and closing of gates at a railway level crossing. With the help of this the human intervention can be avoided by automating the process and also many railway level crossing accidents can be prevented. It includes IR Sensor, Micro Controller, LCD, motor and buzzer/LED.
  
-# Features
+## Identifying Features
+- An IR sensor is used to sense the arrival and departure of the train
+- The gate automatically opens and close upon the arrival and departure of the train
+- LCD displays the information about the arrival & departure of train
+- When the train arrives buzzer sounds to alter the people/vehicle
 
-# SWOT Analysis
+## SWOT Analysis
 
-# 5W's and 1H
+## 5W's and 1H
 
-# Requirements
-## High Level Requirements
+## Requirements
+### High Level Requirements
 |  ID |    Description   |
 |-----|-------------------|
 |HLR1|It shall open the gate on the arrival of train|
@@ -16,7 +22,7 @@
 |HLR3|It shall display the information about arrival & departure of train|
 |HLR4|It shall alter throght buzzer/LED when train comes|
 
-## Low Level Requirements
+### Low Level Requirements
 |  ID |    Description   | HLR ID |
 |-----|-------------------|--------|
 |LLR1|IR sensor detects the arrival and departure of the train|HLR1 & HLR2|
