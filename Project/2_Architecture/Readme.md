@@ -2,7 +2,7 @@
 
 ![block](https://user-images.githubusercontent.com/98875082/155725641-6779b137-7698-4539-9184-6f6275339f2b.png)
 
-The Smart Railway Gate System is a simple embedded system which automatically opens and closes the gate at a railway level crossing.It includes IR Sensor, ARM Controller, stepper motor, LCD dispaly and buzzer/LED.
+The Involuntary Railway Gate System is a simple embedded system which automatically opens and closes the gate at a railway level crossing.It includes IR Sensor, ARM Controller, stepper motor, LCD dispaly and buzzer/LED.
 
 #### IR Sensor
 - An IR sensor is used to sense the arrival and departure of the train. An IR Sensor generally comprises of two components: an IR Transmitter and an IR Receiver. An IR Transmitter is a device that emits IR Rays. Similarly, an IR Receiver is a device that detects the IR Rays. Photo Diodes are the most commonly used IR receivers.
@@ -29,6 +29,9 @@ The Smart Railway Gate System is a simple embedded system which automatically op
 
 # Structural Diagram
 ## Use Case
+
+![usecasepng](https://user-images.githubusercontent.com/98875082/155789978-748a069e-f924-4493-9328-aeccf1f9dcaa.png)
+
 
 
 
