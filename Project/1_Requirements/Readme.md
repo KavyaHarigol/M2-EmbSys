@@ -36,6 +36,7 @@
 |LLR5|The micro controller should activate buzzer/LED|HLR4|
 
 ## Applications
+- Real time transport systems
 - Railway gate controlling.
 - Parking gate controlling.
 
