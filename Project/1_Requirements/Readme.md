@@ -11,14 +11,11 @@
 
 ## SWOT Analysis
 
-![swot](https://user-images.githubusercontent.com/98875082/155743996-740b7288-6245-4d9d-8957-d42487d6d545.png)
-![SWOT_new1](https://user-images.githubusercontent.com/98875082/155744002-13018437-acad-4416-8d41-d96b5e80dffc.png)
-![SWOT_new2](https://user-images.githubusercontent.com/98875082/155744007-f8d024b5-e08e-4e6f-9491-e035f6f2a323.png)
-
+![swotanac](https://user-images.githubusercontent.com/98875082/155748356-33680df4-168e-46d8-824b-deb9ec6d1820.png)
 
 ## 5W's and 1H
 
-![W H](https://user-images.githubusercontent.com/98875082/155744013-8a1db2f9-ca11-497a-91ba-f5c180b5a2b4.png)
+![WHc](https://user-images.githubusercontent.com/98875082/155748367-ac560f96-fde8-4672-a971-20d8012d03e2.png)
 
 ## Requirements
 ### High Level Requirements
