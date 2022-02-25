@@ -30,8 +30,8 @@
 |  ID |    Description   | HLR ID |
 |-----|-------------------|--------|
 |LLR1|IR sensor detects the arrival and departure of the train|HLR1 & HLR2|
-|LLR2|The motors rotates clockwise to open the gate|HLR2|
-|LLR3|The motors rotates ani clockwise to close the gate|HLR3|
+|LLR2|The motors rotates clockwise to open the gate|HLR1|
+|LLR3|The motors rotates ani clockwise to close the gate|HLR2|
 |LLR4|The ADC convert the analog vlaue to dogital value to dosplay|HLR3|
 |LLR5|The micro controller should activate buzzer/LED|HLR4|
 
