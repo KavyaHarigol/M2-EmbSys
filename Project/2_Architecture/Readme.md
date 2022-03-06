@@ -1,6 +1,6 @@
 # Block Diagram
 
-![block_ar](https://user-images.githubusercontent.com/98875082/156934541-94eebec2-c79c-4497-91f5-7cfdf3dc2a15.png)
+![blockar_wihoutadc](https://user-images.githubusercontent.com/98875082/156936857-9ad170b2-c8f8-4b26-8898-1dc433f5390a.png)
 
 The Involuntary Railway Gate System is a simple embedded system which automatically opens and closes the gate at a railway level crossing.It includes Ultrasonic Sensor, Arduino, stepper motor, LCD dispaly and buzzer and LED.
 
