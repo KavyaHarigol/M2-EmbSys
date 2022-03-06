@@ -5,6 +5,6 @@
 
 
 
-- When the train departs: Buzzer and LED turns ON. And also displays on the LCD informing that the vehicles or people can move.
+- When the train departs: Buzzer and LED turns OFF. And also displays on the LCD informing that the vehicles or people can move.
 
 ![departure](https://user-images.githubusercontent.com/98875082/156937236-7c4b2173-ff33-4a19-8f1e-3e4c775c59d8.PNG)
