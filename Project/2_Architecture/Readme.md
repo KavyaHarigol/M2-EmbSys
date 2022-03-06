@@ -1,27 +1,26 @@
 # Block Diagram
 
-![block](https://user-images.githubusercontent.com/98875082/155725641-6779b137-7698-4539-9184-6f6275339f2b.png)
+![block_ar](https://user-images.githubusercontent.com/98875082/156934541-94eebec2-c79c-4497-91f5-7cfdf3dc2a15.png)
 
-The Involuntary Railway Gate System is a simple embedded system which automatically opens and closes the gate at a railway level crossing.It includes IR Sensor, MicroController, stepper motor, LCD dispaly and buzzer/LED.
+The Involuntary Railway Gate System is a simple embedded system which automatically opens and closes the gate at a railway level crossing.It includes Ultrasonic Sensor, Arduino, stepper motor, LCD dispaly and buzzer and LED.
 
-#### IR Sensor
-- An IR sensor is used to sense the arrival and departure of the train. An IR Sensor generally comprises two components: an IR Transmitter and an IR Receiver. An IR Transmitter is a device that emits IR Rays. Similarly, an IR Receiver is a device that detects the IR Rays. Photo Diodes are the most commonly used IR receivers.
-
-#### ADC (Analogy-to-Digital Converter)
-- The sensor value is read through the ADC. The 10-bit ADC values produce equivalent digital data with respect to the IR sensor’s output. With the help of digital data, the gate is being controlled.
-
-#### MicroController Unit
-- The MicroController Unit is one of the best alternatives obtainable for embedded system design. The architecture has become very popular and these are available from different IC manufacturers. The controller helps in opening and closing the gate when the train passes at the junction. All the sensor and actuator are interfaced with the controller unit. When the IR sensor detects the arrival of the train, the microcontroller starts the motor with the help of the motor driver in order to close the gate. And similarly when the train departs, the microcontroller starts the motor to open the gate. It also sends information to LCD and BUZZER/LED for display purposes.
+#### Ultrasonic Sensor
+- The ultrasonic sensor is used to sense the arrival and departure of the train. It works on the "echolocation" principle. The device generates a wave or pulse from the sensor trig pin, and the pulses return to the sensor after hitting an obstacle to the echo pin of the sensor. Thich transmits the digital (0,1) signal, if the object is detected.
 
 
-#### Stepper Motor
-- A stepper motor is an electric motor whose main feature is that its shaft rotates by performing steps, that is, by moving by a fixed number of degrees. This allows us to know the exact angular position of the shaft by simply counting how many steps have been performed, with no need for a sensor. To open the gate the motor rotates clockwise and rotates anti clockwise to close the gate.
+#### Arduino UNO 
+- The Arduino Uno is a microcontroller board based on the ATmega coupled with an integrated development environment (IDE) for creating logic on the chip. The controller helps in opening and closing the gate when the train passes at the junction. All the sensor and actuator are interfaced with the controller unit. When the ultrasonic sensor detects the arrival of the train, the controller starts the motor in order to close the gate. And similarly when the train departs, the controller starts the motor to open the gate. It also sends information to LCD BUZZER and LED for display purposes.
+
+
+#### Servo Motor
+- The servo motor is an electromechanical device. It have three wires out of which two will be used for supply(i.e, positive and negative) and one will be used for the signal that is to be sent from the MCU. PWM (Pulse with Modulation) is used to control the servo motor, which is provided by the control wires. There is a minimum pulse, a maximum pulse and a repetition rate. From its neutral position, the servo motor can turn 90 degrees in either direction. Servo motor can be rotated from 0 to 180 degrees depending on the manufacturing.
+
 
 #### LCD Display
 - The LCD display is a type of flat panel display which uses liquid crystals in its primary form of operation. With the help of digital data from the ADC the data will be displayed on the LCD that is when the train reaches the junction it displays as "The train had arrived" and similarly it displays "The train left the junction" when it departures.
 
 #### Buzzer/LED
-- The buzzer/LED is interfaced with the controller in order to alter the people and vehicle present at the junction on the arrival and departure of the train.
+- The buzzer and LED is interfaced with the controller in order to alter the people and vehicle present at the junction on the arrival and departure of the train.
 
 # Behaviour Diagram
 ## Flow Chart
