@@ -19,19 +19,19 @@
 
 ## Requirements
 ### High Level Requirements
-|  ID |    Description   |
-|-----|-------------------|
-|HLR1|It shall open the gate on the arrival of train|
-|HLR2|It shall close the gate on the departure of train |
-|HLR3|It shall display the information about arrival & departure of train|
-|HLR4|It shall alter through buzzer/LED when train comes|
+|  ID |    Description   | Status |
+|-----|-------------------|--------|
+|HLR1|It shall open the gate on the arrival of train| Implemented |
+|HLR2|It shall close the gate on the departure of train | Implemented |
+|HLR3|It shall display the information about arrival & departure of train| Implemented |
+|HLR4|It shall alter through buzzer/LED when train comes| Implemented |
 
 ### Low Level Requirements
-|  ID |    Description   | HLR ID |
-|-----|-------------------|--------|
-|LLR1|IR sensor detects the arrival and departure of the train|HLR1 & HLR2|
-|LLR2|The motors rotates clockwise to open the gate|HLR1|
-|LLR3|The motors rotates ani clockwise to close the gate|HLR2|
+|  ID |    Description   | HLR ID | Status |
+|-----|-------------------|--------|-------|
+|LLR1|IR sensor detects the arrival and departure of the train|HLR1 & HLR2| Implemented |
+|LLR2|The motors rotates clockwise to open the gate|HLR1| Implemented |
+|LLR3|The motors rotates ani clockwise to close the gate|HLR2| Implemented |
 |LLR4|The ADC convert the analog vlaue to dogital value to dosplay|HLR3|
 |LLR5|The micro controller should activate buzzer/LED|HLR4|
 
