@@ -1,10 +1,12 @@
 - When the train arrivals: Buzzer and LED turns ON. And also displays on the LCD informing to the road side vehicle or people to wait untill the departure.
 
-![Arrival](https://user-images.githubusercontent.com/98875082/156937235-01a343f7-71cd-433b-9557-6cba3a61d580.PNG)
+![arrive](https://user-images.githubusercontent.com/98875082/156998183-226c4051-ce2b-4f39-a4d5-01803269ec0a.PNG)
+
+
 
 
 
 
 - When the train departs: Buzzer and LED turns OFF. And also displays on the LCD informing that the vehicles or people can move.
 
-![departure](https://user-images.githubusercontent.com/98875082/156937236-7c4b2173-ff33-4a19-8f1e-3e4c775c59d8.PNG)
+![depart](https://user-images.githubusercontent.com/98875082/156998190-02b1db10-1ebf-4f8e-88a2-c820151aeff6.PNG)
