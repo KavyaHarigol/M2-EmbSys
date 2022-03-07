@@ -1,0 +1,23 @@
+name: Complile Sketch
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    
+runs-on: ubuntu-latest
+
+      steps:
+    - uses: actions/checkout@v2
+    - uses: arduino/compile-main@v1
+      run: Complile Sketch --enable=all 3_Implementation
+      
+      libraries:
+    - name: Arduino_Servo
+    - name: Arduino_LiquidCrystal
+      
+   
