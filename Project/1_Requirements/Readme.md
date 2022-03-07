@@ -32,8 +32,8 @@
 |LLR1|IR sensor detects the arrival and departure of the train|HLR1 & HLR2| Implemented |
 |LLR2|The motors rotates clockwise to open the gate|HLR1| Implemented |
 |LLR3|The motors rotates ani clockwise to close the gate|HLR2| Implemented |
-|LLR4|The ADC convert the analog vlaue to dogital value to dosplay|HLR3|
-|LLR5|The micro controller should activate buzzer/LED|HLR4|
+|LLR4|The ADC convert the analog vlaue to dogital value to dosplay|HLR3| Implemented |
+|LLR5|The micro controller should activate buzzer/LED|HLR4| Implemented |
 
 ## Applications
 - Real time transport systems
