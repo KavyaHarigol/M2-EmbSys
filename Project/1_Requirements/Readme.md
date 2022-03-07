@@ -35,10 +35,6 @@
 |LLR4|The ADC convert the analog vlaue to dogital value to dosplay|HLR3| Implemented |
 |LLR5|The micro controller should activate buzzer/LED|HLR4| Implemented |
 
-## Applications
-- Real time transport systems
-- Railway gate controlling.
-- Parking gate controlling.
 
 
 
