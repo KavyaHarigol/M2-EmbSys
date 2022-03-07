@@ -1,3 +1,5 @@
+# Output of the project
+
 - The train arrivals: Buzzer and LED turns ON. And also displays on the LCD informing to the road side vehicle or people to wait untill the departure.
 
 ![arrive](https://user-images.githubusercontent.com/98875082/156998183-226c4051-ce2b-4f39-a4d5-01803269ec0a.PNG)
