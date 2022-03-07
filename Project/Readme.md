@@ -1,5 +1,5 @@
 # Involuntary Railway Gate System
-Involuntary Railway Gate System 
+Involuntary Railway Gate System attempts to automate the opening and closing of gates at a railway level crossing.
 
 
 ## Code Analysis
