@@ -22,7 +22,7 @@ The Involuntary Railway Gate System is a simple embedded system which automatica
 #### Buzzer/LED
 - The buzzer and LED is interfaced with the controller in order to alter the people and vehicle present at the junction on the arrival and departure of the train.
 
-# Behaviour Diagram
+# Behavioral Diagram
 ## Flow Chart
 
 ![flow](https://user-images.githubusercontent.com/98875082/155775138-7965d5ee-7e8d-42f5-9cc7-54e0468b4c24.png)
