@@ -20,3 +20,4 @@ Involuntary Railway Gate System attempts to automate the opening and closing of 
 |5_Report|	Generated Report |
 |6_ImagesandVideos|	All the images and program execution video|
 |7_Application| Apllications of the project |
+
